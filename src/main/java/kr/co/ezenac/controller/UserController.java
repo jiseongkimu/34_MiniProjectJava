@@ -11,24 +11,24 @@ public class UserController {
 	@GetMapping("/login")
 	public String login() {
 		
-		return "user/login";
+		return "user/users/login";
 	}
 	
 	@GetMapping("/join")
 	public String join() {
 		
-		return "user/join";
+		return "user/users/join";
 	}
 	
 	@GetMapping("/modify")
 	public String modify() {
 		
-		return "user/modify";
+		return "user/users/modify";
 	}
 	
 	@GetMapping("/logout")
 	public String logout() {
-		return "user/logout";
+		return "user/users/logout";
 	}
 
 

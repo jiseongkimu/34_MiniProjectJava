@@ -10,29 +10,29 @@ public class BoardController {
 	
 	@GetMapping("/main")
 	public String main() {
-		return "board/main";
+		return "user/board/board_main";
 	}
 	
 	@GetMapping("/read")
 	public String read() {
-		return "board/read";
+		return "user/board/board_info";
 	}
 	
 	@GetMapping("/write")
 	public String write() {
-		return "board/write";
+		return "user/board/board_write";
 	}
 	
 	@GetMapping("/modify")
 	public String modify() {
 		
-		return "board/modify";
+		return "user/board/board_modify";
 	}
 	
 	@GetMapping("/delete")
 	public String delete() {
 		
-		return "board/delete";
+		return "user/board/board_delete";
 	}
 
 }
